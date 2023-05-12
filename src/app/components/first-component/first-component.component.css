@@ -1,0 +1,12 @@
+h2 {
+    color: rgb(57, 6, 6);
+}
+
+.title {
+    background-color: rgb(2, 2, 62);
+    color: aqua;
+}
+
+* {
+    margin-top: 5px;
+}
