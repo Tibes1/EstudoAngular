@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class FirstComponentComponent {
   name:string = 'Tibes'
   age:number = 22
-  hobbies:string[] = ['comer','correr','jogar']
+  hobbies:string[] = ['comer','correr','jogar','matar']
 
   constructor() {}
 
