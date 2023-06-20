@@ -1,0 +1,13 @@
+<div class="class">
+    <h1 *ngIf="show">
+        Mensagem
+    </h1>
+    <button (click)="showMessage()">Clique em mim!</button>
+    
+    <h1 [style.color]="color">
+        Mensagem
+    </h1>
+    <button (click)="setColorRed()">setColorRed</button>
+    <button (click)="setColorBlue()">setColorBlue</button>
+    
+</div>
