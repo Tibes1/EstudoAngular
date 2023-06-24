@@ -22,13 +22,18 @@ export class ListRenderComponent {
   }
 
   animalDetails: string = ''
+  lastAnimalName: string = ''
 
   showAge(animal: Animal): void {
     this.animalDetails = `O pet ${animal.name} tem ${animal.age} anos!`
+    this.lastAnimalName = animal.name;
   }
 
   removeAnimal(animal: Animal) {
     console.log('removendo animal')
+    if (animal.name == this.lastAnimalName) {
+      this.animalDetails = ''
+    }
     this.animals = this.listService.remove(this.animals, animal)
   }
 }
