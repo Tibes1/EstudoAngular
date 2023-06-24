@@ -1,0 +1,29 @@
+<div class="class">
+    <h2>Two way data binding</h2>
+
+    <form>
+        <input 
+            type="text" 
+            [(ngModel)]="name"
+            name="name"
+            placeholder="Digite seu nome"
+        ><br/>
+        <input 
+            type="number" 
+            [(ngModel)]="age"
+            name="age"
+            placeholder="Digite sua idade"
+        >
+    </form>
+
+    <div *ngIf="name != ''">
+        <p>Seu nome eh: {{name}} </p>
+    </div>
+
+    <div *ngIf="age > 0">
+        <p>Sua idade eh: {{age}} </p>
+    </div>
+        
+
+
+</div>
