@@ -5,5 +5,11 @@
         {"id": 3, "name": "Frida", "type": "Dog",   "age": 11 },
         {"id": 4, "name": "Bob",   "type": "Horse", "age": 2 },
         {"id": 5, "name": "Paco",  "type": "Bird",  "age": 1 }
+    ],
+    "cars": [
+        {"id": 1, "name": "fusca", "color": "azul",   "model": 1997},
+        {"id": 2, "name": "uno",   "color": "branco", "model": 2002},
+        {"id": 3, "name": "onix",  "color": "prata",  "model": 2021},
+        {"id": 4, "name": "s10",   "color": "preto",  "model": 2017}
     ]
 }

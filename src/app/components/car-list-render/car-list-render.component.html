@@ -1,0 +1,10 @@
+<div class="class">
+    <h1>{{"cars:" | titlecase}}</h1>
+    <ul>
+        <li *ngFor="let car of cars">
+            <p> nome: {{ car.name }}</p>
+            <p> tipo: {{ car.color }}</p>
+            <p> tipo: {{ car.model }}</p>
+        </li>
+    </ul>
+</div>

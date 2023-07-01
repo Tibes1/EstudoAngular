@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 import { Animal } from '../Animal';
 
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 
 import { Observable } from 'rxjs';
 
